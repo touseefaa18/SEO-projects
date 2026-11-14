@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Limit | Elite Luxury Racing Car Showroom</title>
+    <meta name="description" content="Discover Speed Limit, an elite luxury racing car showroom offering bespoke driving experiences, rare supercars, and private consultations.">
+    <meta name="keywords" content="luxury car showroom, supercar collection, racing cars, Ferrari SF90, Lamborghini Revuelto, Porsche GT3 RS, Speed Limit, Touseef Khan">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Speed Limit | Elite Luxury Racing Car Showroom">
+    <meta property="og:description" content="Where Performance Meets Prestige. Explore elite supercars and bespoke driving experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://speedlimit.showroom">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?q=80&w=1600&auto=format&fit=crop">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Sticky Navbar -->
+    <header id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">SL</span>
+                <span class="logo-text">Speed Limit</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#collection" class="nav-link">Collection</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-action-mobile">
+                    <a href="#contact" class="btn btn-primary btn-sm" id="mobileCtaBtn">Book a Viewing</a>
+                </div>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm">Book a Viewing</a>
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">Elite Showroom Experience</div>
+            <h1 class="hero-title animate-slide-up">Where Performance<br>Meets Prestige.</h1>
+            <p class="hero-subtitle animate-slide-up">Step into the pinnacle of automotive engineering. Curating the world's most exclusive luxury racing cars and delivering bespoke driving experiences for the discerning few.</p>
+            <div class="hero-buttons animate-slide-up">
+                <a href="#collection" class="btn btn-primary">
+                    <span>Explore Collection</span>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+                <a href="#contact" class="btn btn-outline">Book a Private Viewing</a>
+            </div>
+        </div>
+
+        <div class="hero-stats">
+            <div class="stat-item">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">Elite Models</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Worldwide Delivery</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Private Consultations</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Luxury Car Collection Grid -->
+    <section id="collection" class="collection section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Exquisite Inventory</span>
+                <h2 class="section-title">The Speed Limit Collection</h2>
+                <p class="section-desc">Each masterpiece in our showroom represents the ultimate zenith of track capability and road-legal luxury.</p>
+            </div>
+
+            <div class="car-grid">
+                <!-- Car 1 -->
+                <div class="car-card" data-car="ferrari-sf90">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1592198084033-aade902d1aae?q=80&w=1000&auto=format&fit=crop" alt="Ferrari SF90 Stradale" loading="lazy">
+                        <div class="car-badge">Plug-in Hybrid</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">Ferrari</span>
+                            <span class="car-year">2026 Model</span>
+                        </div>
+                        <h3 class="car-name">SF90 Stradale</h3>
+                        <p class="car-specs">986 HP · 0-60 in 2.5s · Twin-Turbo V8</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="Ferrari SF90 Stradale">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 2 -->
+                <div class="car-card" data-car="lamborghini-revuelto">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?q=80&w=1000&auto=format&fit=crop" alt="Lamborghini Revuelto" loading="lazy">
+                        <div class="car-badge">V12 Hybrid</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">Lamborghini</span>
+                            <span class="car-year">2026 Model</span>
+                        </div>
+                        <h3 class="car-name">Revuelto</h3>
+                        <p class="car-specs">1,001 HP · 217 MPH Top Speed · V12</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="Lamborghini Revuelto">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 3 -->
+                <div class="car-card" data-car="porsche-911-gt3">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=1000&auto=format&fit=crop" alt="Porsche 911 GT3 RS" loading="lazy">
+                        <div class="car-badge">Track Focused</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">Porsche</span>
+                            <span class="car-year">2025 Model</span>
+                        </div>
+                        <h3 class="car-name">911 GT3 RS</h3>
+                        <p class="car-specs">518 HP · 9,000 RPM Redline · Aerodynamics</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="Porsche 911 GT3 RS">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 4 -->
+                <div class="car-card" data-car="mclaren-750s">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=1000&auto=format&fit=crop" alt="McLaren 750S" loading="lazy">
+                        <div class="car-badge">Lightweight</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">McLaren</span>
+                            <span class="car-year">2026 Model</span>
+                        </div>
+                        <h3 class="car-name">McLaren 750S</h3>
+                        <p class="car-specs">740 HP · Carbon Monocell · V8 Twin-Turbo</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="McLaren 750S">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 5 -->
+                <div class="car-card" data-car="aston-martin-valkyrie">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?q=80&w=1000&auto=format&fit=crop" alt="Aston Martin Valkyrie" loading="lazy">
+                        <div class="car-badge">Hypercar</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">Aston Martin</span>
+                            <span class="car-year">Limited Edition</span>
+                        </div>
+                        <h3 class="car-name">Valkyrie</h3>
+                        <p class="car-specs">1,135 HP · Cosworth V12 · F1 Tech</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="Aston Martin Valkyrie">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 6 -->
+                <div class="car-card" data-car="bugatti-chiron">
+                    <div class="car-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=1000&auto=format&fit=crop" alt="Bugatti Chiron" loading="lazy">
+                        <div class="car-badge">W16 Masterpiece</div>
+                        <div class="car-overlay-gradient"></div>
+                    </div>
+                    <div class="car-details">
+                        <div class="car-meta-top">
+                            <span class="car-brand">Bugatti</span>
+                            <span class="car-year">Final Edition</span>
+                        </div>
+                        <h3 class="car-name">Bugatti Chiron</h3>
+                        <p class="car-specs">1,500 HP · Quad-Turbo W16 · 261 MPH</p>
+                        <div class="car-footer">
+                            <a href="#contact" class="car-link" data-car-select="Bugatti Chiron">
+                                <span>Discover More</span>
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Founders Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Visionary Leadership</span>
+                <h2 class="section-title">Built for Those Who Refuse Limits.</h2>
+                <p class="section-desc">Speed Limit was founded on an uncompromising passion for raw acceleration, flawless craftsmanship, and absolute automotive perfection.</p>
+            </div>
+
+            <div class="founders-grid">
+                <!-- Founder Profile Card 1 -->
+                <div class="founder-card">
+                    <div class="founder-image-container">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop" alt="Touseef Khan" class="founder-img" loading="lazy">
+                        <div class="founder-role-badge">Founder & CEO</div>
+                    </div>
+                    <div class="founder-content">
+                        <h3 class="founder-name">Touseef Khan</h3>
+                        <p class="founder-age">Age 18 · Visionary Entrepreneur</p>
+                        <p class="founder-bio">
+                            An ambitious young visionary with an uncompromising eye for performance, luxury, and technological innovation. Touseef established Speed Limit to redefine elite car ownership, connecting passionate collectors with the rarest racing machines ever engineered. His relentless pursuit of excellence ensures every client receives a bespoke, white-glove automotive journey.
+                        </p>
+                        <div class="founder-quote">
+                            "True luxury is not just ownership; it is the visceral emotion of commanding pure engineering mastery on the open track."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Co-Founder Profile Card 2 -->
+                <div class="founder-card">
+                    <div class="founder-image-container">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop" alt="Ayaan Malik" class="founder-img" loading="lazy">
+                        <div class="founder-role-badge">Creative Director</div>
+                    </div>
+                    <div class="founder-content">
+                        <h3 class="founder-name">Ayaan Malik</h3>
+                        <p class="founder-age">Design & Experience Architect</p>
+                        <p class="founder-bio">
+                            With a rich background in haute couture design and high-end architectural curation, Ayaan shapes the physical and digital aesthetic of Speed Limit. He oversees bespoke client experiences, private showroom design, and tailored vehicle specifications, ensuring that every touchpoint reflects timeless sophistication and cinematic luxury.
+                        </p>
+                        <div class="founder-quote">
+                            "Design is the silent ambassador of performance. Every curve and finish in our showroom tells a story of speed and elegance."
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Private Concierge</span>
+                <h2 class="section-title">Begin Your Private Experience.</h2>
+                <p class="section-desc">Arrange a private showroom viewing or inquire about bespoke racing car acquisitions with our executive concierge team.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info-card">
+                    <h3>Showroom Headquarters</h3>
+                    <p class="contact-card-desc">Visit our flagship private gallery by appointment only. Experience elite racing heritage in absolute confidentiality.</p>
+
+                    <ul class="contact-details-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            <span>777 Apex Boulevard, Beverly Hills, CA 90210</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            <span>+1 (800) 555-SPEED / +1 (800) 555-7733</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            <span>concierge@speedlimit.showroom</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            <span>Monday – Saturday: 9:00 AM – 8:00 PM (By Appointment)</span>
+                        </li>
+                    </ul>
+
+                    <div class="contact-badge-box">
+                        <span class="badge-dot"></span>
+                        <span>Private Secure Consultations Available Globally</span>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-card">
+                    <form id="enquiryForm" novalidate>
+                        <div class="form-group">
+                            <label for="fullName">Full Name <span class="required">*</span></label>
+                            <input type="text" id="fullName" name="fullName" placeholder="e.g. Alexander Vance" required>
+                            <span class="error-message" id="nameError">Please enter your full name.</span>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="alexander@luxury.com" required>
+                                <span class="error-message" id="emailError">Please enter a valid email address.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 019-2834" required>
+                                <span class="error-message" id="phoneError">Please enter a valid phone number.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="preferredVehicle">Preferred Vehicle <span class="required">*</span></label>
+                            <select id="preferredVehicle" name="preferredVehicle" required>
+                                <option value="" disabled selected>Select a vehicle of interest</option>
+                                <option value="Ferrari SF90 Stradale">Ferrari SF90 Stradale</option>
+                                <option value="Lamborghini Revuelto">Lamborghini Revuelto</option>
+                                <option value="Porsche 911 GT3 RS">Porsche 911 GT3 RS</option>
+                                <option value="McLaren 750S">McLaren 750S</option>
+                                <option value="Aston Martin Valkyrie">Aston Martin Valkyrie</option>
+                                <option value="Bugatti Chiron">Bugatti Chiron</option>
+                                <option value="General Private Consultation">General Private Consultation</option>
+                            </select>
+                            <span class="error-message" id="vehicleError">Please select a preferred vehicle.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Private Message / Special Requests</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Specify any custom configuration requests or desired appointment dates..."></textarea>
+                        </div>
+
+                        <button type="submit" id="submitBtn" class="btn btn-primary btn-full">
+                            <span class="btn-text">Send Enquiry</span>
+                            <span class="btn-spinner" style="display: none;">
+                                <svg class="spinner" width="20" height="20" viewBox="0 0 50 50"><circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle></svg>
+                            </span>
+                        </button>
+                    </form>
+
+                    <!-- Success State Card (Hidden by default) -->
+                    <div id="formSuccessMessage" class="form-success-box" style="display: none;">
+                        <div class="success-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <h3>Enquiry Received Successfully</h3>
+                        <p>Thank you for reaching out to Speed Limit. Our senior private concierge has received your request and will contact you within 2 hours to arrange your exclusive showroom viewing.</p>
+                        <button type="button" id="resetFormBtn" class="btn btn-outline btn-sm">Send Another Enquiry</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <a href="#home" class="logo footer-logo">
+                        <span class="logo-icon">SL</span>
+                        <span class="logo-text">Speed Limit</span>
+                    </a>
+                    <p class="footer-brand-desc">
+                        The ultimate destination for ultra-luxury racing cars and bespoke automotive curation. Where performance meets prestige.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"></path><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor"></polygon></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#about">About Founders</a></li>
+                        <li><a href="#contact">Contact Concierge</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Elite Inventory</h4>
+                    <ul class="footer-links">
+                        <li><a href="#collection">Ferrari SF90 Stradale</a></li>
+                        <li><a href="#collection">Lamborghini Revuelto</a></li>
+                        <li><a href="#collection">Porsche 911 GT3 RS</a></li>
+                        <li><a href="#collection">Aston Martin Valkyrie</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-heading">Private Gallery</h4>
+                    <p class="footer-contact-text">777 Apex Boulevard<br>Beverly Hills, CA 90210</p>
+                    <p class="footer-contact-text">Phone: +1 (800) 555-SPEED</p>
+                    <p class="footer-contact-text">Email: concierge@speedlimit.showroom</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Speed Limit Showroom. All rights reserved. Designed for elite automotive collectors.</p>
+                <button id="backToTopBtn" class="back-to-top" aria-label="Back to top">
+                    <span>Back to Top</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
